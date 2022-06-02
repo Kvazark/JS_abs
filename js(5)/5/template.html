@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="template.css">
+    <title>TABLE - SEARCH ENGINE</title>
+    <script src="./solution.js"></script>
+</head>
+
+<body>
+    <table class="container">
+        <thead>
+            <tr>
+                <th>Student name</th>
+                <th>Student email</th>
+                <th>Student course</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="3">
+                    <input type="text" id="searchField" />
+                    <button type="button" id="searchBtn">Search</button>
+                </td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Ivanov Ivan</td>
+                <td>ivan@example.com</td>
+                <td>JS-CORE</td>
+            </tr>
+            <tr>
+                <td>Petr Petrov</td>
+                <td>petr@example.com</td>
+                <td>JS-WEB</td>
+            </tr>
+            <tr>
+                <td>Max Maxov</td>
+                <td>max@example.com</td>
+                <td>FRONT-END</td>
+            </tr>
+            <tr>
+                <td>Svetlana Svetlanova</td>
+                <td>sv@example.com</td>
+                <td>TECH-JS</td>
+            </tr>
+            <tr>
+                <td>Marina Marinova</td>
+                <td>m@example.com</td>
+                <td>All possible courses</td>
+            </tr>
+        </tbody>
+    </table>
+    <div id="result"></div>
+
+    <script>
+        solve();
+    </script>
+</body>
+
+</html>
